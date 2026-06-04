@@ -39,6 +39,16 @@ service-account.json
 scanners/reports/*.html
 scanners/reports/*.pdf
 
+# Environment
+.env.local
+.env.production
+
+# Logs
+*.log
+
+# Vercel
+.vercel
+
 # Docker
 docker-compose.override.yml
 
